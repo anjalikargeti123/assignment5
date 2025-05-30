@@ -1,0 +1,13 @@
+a={"anjali":95,"rohit":78,"aman":90,"sahil":35}
+name =input("enter student's name :")
+output=a.get(name,"student not found")
+print(output)
+
+
+list1=([1,2,3,4,5,6,7,8,9,10])
+list2=list1[0:5]
+reversed_list=list2[::-1]
+print("original list:",list1)
+print("extracted list:",list2)
+print("reversed list:",reversed_list)a
+
